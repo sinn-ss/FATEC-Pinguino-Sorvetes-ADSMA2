@@ -1,0 +1,15 @@
+D:\FATEC_2020\2o-Semestre\Sistemas-Informacao\Exercicios-Propostos\N2-SI\Projeto\Pinguino-Sorvetes\Pinguino-Sorvetes\bin\Debug\Pinguino-Sorvetes.exe.config
+D:\FATEC_2020\2o-Semestre\Sistemas-Informacao\Exercicios-Propostos\N2-SI\Projeto\Pinguino-Sorvetes\Pinguino-Sorvetes\bin\Debug\Pinguino-Sorvetes.exe
+D:\FATEC_2020\2o-Semestre\Sistemas-Informacao\Exercicios-Propostos\N2-SI\Projeto\Pinguino-Sorvetes\Pinguino-Sorvetes\bin\Debug\Pinguino-Sorvetes.pdb
+D:\FATEC_2020\2o-Semestre\Sistemas-Informacao\Exercicios-Propostos\N2-SI\Projeto\Pinguino-Sorvetes\Pinguino-Sorvetes\bin\Debug\Pinguino-Sorvetes.xml
+D:\FATEC_2020\2o-Semestre\Sistemas-Informacao\Exercicios-Propostos\N2-SI\Projeto\Pinguino-Sorvetes\Pinguino-Sorvetes\obj\Debug\Pinguino-Sorvetes.vbprojAssemblyReference.cache
+D:\FATEC_2020\2o-Semestre\Sistemas-Informacao\Exercicios-Propostos\N2-SI\Projeto\Pinguino-Sorvetes\Pinguino-Sorvetes\obj\Debug\Pinguino_Sorvetes.Resources.resources
+D:\FATEC_2020\2o-Semestre\Sistemas-Informacao\Exercicios-Propostos\N2-SI\Projeto\Pinguino-Sorvetes\Pinguino-Sorvetes\obj\Debug\Pinguino-Sorvetes.vbproj.GenerateResource.cache
+D:\FATEC_2020\2o-Semestre\Sistemas-Informacao\Exercicios-Propostos\N2-SI\Projeto\Pinguino-Sorvetes\Pinguino-Sorvetes\obj\Debug\Pinguino-Sorvetes.vbproj.CoreCompileInputs.cache
+D:\FATEC_2020\2o-Semestre\Sistemas-Informacao\Exercicios-Propostos\N2-SI\Projeto\Pinguino-Sorvetes\Pinguino-Sorvetes\obj\Debug\Pinguino-Sorvetes.exe
+D:\FATEC_2020\2o-Semestre\Sistemas-Informacao\Exercicios-Propostos\N2-SI\Projeto\Pinguino-Sorvetes\Pinguino-Sorvetes\obj\Debug\Pinguino-Sorvetes.xml
+D:\FATEC_2020\2o-Semestre\Sistemas-Informacao\Exercicios-Propostos\N2-SI\Projeto\Pinguino-Sorvetes\Pinguino-Sorvetes\obj\Debug\Pinguino-Sorvetes.pdb
+D:\FATEC_2020\2o-Semestre\Sistemas-Informacao\Exercicios-Propostos\N2-SI\Projeto\Pinguino-Sorvetes\Pinguino-Sorvetes\obj\Debug\Interop.MDACVer.dll
+D:\FATEC_2020\2o-Semestre\Sistemas-Informacao\Exercicios-Propostos\N2-SI\Projeto\Pinguino-Sorvetes\Pinguino-Sorvetes\obj\Debug\Pinguino-Sorvetes.vbproj.ResolveComReference.cache
+D:\FATEC_2020\2o-Semestre\Sistemas-Informacao\Exercicios-Propostos\N2-SI\Projeto\Pinguino-Sorvetes\Pinguino-Sorvetes\obj\Debug\Pinguino_Sorvetes.frm_inicio.resources
+D:\FATEC_2020\2o-Semestre\Sistemas-Informacao\Exercicios-Propostos\N2-SI\Projeto\Pinguino-Sorvetes\Pinguino-Sorvetes\obj\Debug\Pinguino_Sorvetes.Splash_Pinguino.resources
