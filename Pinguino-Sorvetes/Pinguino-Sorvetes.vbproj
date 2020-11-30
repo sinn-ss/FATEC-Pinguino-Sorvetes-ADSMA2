@@ -79,6 +79,12 @@
     <Compile Include="cadastro_pessoas.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frm_pedido.Designer.vb">
+      <DependentUpon>frm_pedido.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_pedido.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frm_inicio.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -117,6 +123,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_inicio.resx">
       <DependentUpon>frm_inicio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_pedido.resx">
+      <DependentUpon>frm_pedido.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
