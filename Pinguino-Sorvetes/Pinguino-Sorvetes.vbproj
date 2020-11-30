@@ -86,6 +86,7 @@
       <DependentUpon>frm_inicio.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="mod_cadastro_pessoas.vb" />
     <Compile Include="mod_global.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">

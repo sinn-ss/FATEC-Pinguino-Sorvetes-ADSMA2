@@ -8,7 +8,7 @@
         Try
             db = CreateObject("ADODB.Connection")
             db.Open("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" & database & ";")
-            'MsgBox("Conectado ao banco de dados com sucesso!", MsgBoxStyle.Information + MsgBoxStyle.OkOnly, "SUCESSO")
+            MsgBox("Conectado ao banco de dados com sucesso!", MsgBoxStyle.Information + MsgBoxStyle.OkOnly, "SUCESSO")
         Catch ex As Exception
             MsgBox("Falha na conexão ao banco de dados!", MsgBoxStyle.Critical + MsgBoxStyle.OkOnly, "ATENÇÃO")
         End Try
