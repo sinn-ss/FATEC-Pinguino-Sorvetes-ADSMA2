@@ -51,6 +51,7 @@ Partial Class cadastro_pessoas
         Me.btn_cancelar = New System.Windows.Forms.Button()
         Me.btn_salvar = New System.Windows.Forms.Button()
         Me.lbl_foto = New System.Windows.Forms.LinkLabel()
+        Me.Label2 = New System.Windows.Forms.Label()
         CType(Me.img_foto, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -320,12 +321,22 @@ Partial Class cadastro_pessoas
         Me.lbl_foto.TabStop = True
         Me.lbl_foto.Text = "Selecionar Foto..."
         '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(330, 232)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(121, 13)
+        Me.Label2.TabIndex = 29
+        Me.Label2.Text = "Steh é um amorzinho <3"
+        '
         'cadastro_pessoas
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(484, 367)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.lbl_foto)
         Me.Controls.Add(Me.btn_salvar)
         Me.Controls.Add(Me.btn_cancelar)
@@ -392,4 +403,5 @@ Partial Class cadastro_pessoas
     Friend WithEvents btn_cancelar As Button
     Friend WithEvents btn_salvar As Button
     Friend WithEvents lbl_foto As LinkLabel
+    Friend WithEvents Label2 As Label
 End Class
