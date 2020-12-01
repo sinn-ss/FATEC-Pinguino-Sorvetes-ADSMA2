@@ -52,7 +52,8 @@ Partial Class cadastro_pessoas
         Me.btn_salvar = New System.Windows.Forms.Button()
         Me.lbl_foto = New System.Windows.Forms.LinkLabel()
         Me.selecionar_foto = New System.Windows.Forms.OpenFileDialog()
-        Me.cmb_tipo = New System.Windows.Forms.ComboBox()
+        Me.rd_cliente = New System.Windows.Forms.RadioButton()
+        Me.rd_funcionario = New System.Windows.Forms.RadioButton()
         CType(Me.img_foto, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -297,7 +298,7 @@ Partial Class cadastro_pessoas
         '
         'btn_cancelar
         '
-        Me.btn_cancelar.Location = New System.Drawing.Point(330, 269)
+        Me.btn_cancelar.Location = New System.Drawing.Point(330, 273)
         Me.btn_cancelar.Name = "btn_cancelar"
         Me.btn_cancelar.Size = New System.Drawing.Size(125, 35)
         Me.btn_cancelar.TabIndex = 26
@@ -323,13 +324,29 @@ Partial Class cadastro_pessoas
         Me.lbl_foto.TabStop = True
         Me.lbl_foto.Text = "Selecionar Foto..."
         '
-        'cmb_tipo
+        'rd_cliente
         '
-        Me.cmb_tipo.FormattingEnabled = True
-        Me.cmb_tipo.Location = New System.Drawing.Point(333, 230)
-        Me.cmb_tipo.Name = "cmb_tipo"
-        Me.cmb_tipo.Size = New System.Drawing.Size(121, 21)
-        Me.cmb_tipo.TabIndex = 29
+        Me.rd_cliente.AutoSize = True
+        Me.rd_cliente.Checked = True
+        Me.rd_cliente.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rd_cliente.Location = New System.Drawing.Point(333, 227)
+        Me.rd_cliente.Name = "rd_cliente"
+        Me.rd_cliente.Size = New System.Drawing.Size(77, 17)
+        Me.rd_cliente.TabIndex = 29
+        Me.rd_cliente.TabStop = True
+        Me.rd_cliente.Text = "CLIENTE"
+        Me.rd_cliente.UseVisualStyleBackColor = True
+        '
+        'rd_funcionario
+        '
+        Me.rd_funcionario.AutoSize = True
+        Me.rd_funcionario.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rd_funcionario.Location = New System.Drawing.Point(333, 250)
+        Me.rd_funcionario.Name = "rd_funcionario"
+        Me.rd_funcionario.Size = New System.Drawing.Size(110, 17)
+        Me.rd_funcionario.TabIndex = 30
+        Me.rd_funcionario.Text = "FUNCIONÁRIO"
+        Me.rd_funcionario.UseVisualStyleBackColor = True
         '
         'cadastro_pessoas
         '
@@ -337,7 +354,8 @@ Partial Class cadastro_pessoas
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(484, 367)
-        Me.Controls.Add(Me.cmb_tipo)
+        Me.Controls.Add(Me.rd_funcionario)
+        Me.Controls.Add(Me.rd_cliente)
         Me.Controls.Add(Me.lbl_foto)
         Me.Controls.Add(Me.btn_salvar)
         Me.Controls.Add(Me.btn_cancelar)
@@ -405,5 +423,6 @@ Partial Class cadastro_pessoas
     Friend WithEvents btn_salvar As Button
     Friend WithEvents lbl_foto As LinkLabel
     Friend WithEvents selecionar_foto As OpenFileDialog
-    Friend WithEvents cmb_tipo As ComboBox
+    Friend WithEvents rd_cliente As RadioButton
+    Friend WithEvents rd_funcionario As RadioButton
 End Class

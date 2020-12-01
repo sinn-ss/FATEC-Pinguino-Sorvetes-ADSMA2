@@ -4,6 +4,7 @@
     Public sql As String
     Public database = Application.StartupPath & "\database\pinguino-db.accdb"
     Public folder As String
+    Public resposta As String
     Public cpf_unmask, telefone_unmask, photoname As String
     Public id_pessoa As Integer
     Sub conectar_banco()
