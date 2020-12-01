@@ -38,14 +38,6 @@
                 .InitialDirectory = Application.StartupPath & "\images\photos"
                 .ShowDialog()
                 folder = .FileName
-                ' COMANDOS PARA COPIAR A FOTO PARA A PASTA NO STARTUP PATH
-                ' FICOU AQUI PORQUE FOI USADO EM TESTE E DEU CERTO, IREI APLICAR
-                ' NA FUNÇÃO GRAVAR DADOS
-                'sql = "SELECT * FROM pessoas;"
-                'rs = db.Execute(sql)
-                'photoname = rs.Fields(0).Value + 1
-                'My.Computer.FileSystem.CopyFile(folder, Application.StartupPath & "\images\photos\" & photoname & ".jpg")
-                'folder = Application.StartupPath & "\images\photos\" & photoname & ".jpg"
                 img_foto.Load(folder)
             End With
         Catch ex As Exception
@@ -85,10 +77,10 @@
                       "VALUES (" & id_pessoa & ", " &
                                "'" & Date.Today & "');"
                 rs = db.Execute(sql)
+                MsgBox("Cadastro realizado com sucesso!", MsgBoxStyle.Information + MsgBoxStyle.OkOnly, "ATENÇÃO!")
             ElseIf cmb_tipo.SelectedItem = "FUNCIONÁRIO" Then
-                ' Chamar o formulário com seleção de cargo, usuário e senha
+                cadastro_funcionarios.Show()
             End If
-            MsgBox("Cadastro realizado com sucesso!", MsgBoxStyle.Information + MsgBoxStyle.OkOnly, "ATENÇÃO!")
             ' Limpar os campos
             txt_cpf.Clear()
             cmb_data_nascimento.ResetText()
