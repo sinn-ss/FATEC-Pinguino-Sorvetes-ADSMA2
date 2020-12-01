@@ -8,9 +8,9 @@
             MsgBox("Falha na conexão ao banco de dados!", MsgBoxStyle.Critical + MsgBoxStyle.OkOnly, "ATENÇÃO")
         End Try
 
-        sql = "SELECT * FROM tb_cardapio WHERE id = 20;"
-        rs = db.Execute(sql)
-        imagem = Application.StartupPath & rs.Fields(3).Value
+        'sql = "SELECT * FROM tb_cardapio WHERE id = 20;"
+        'rs = db.Execute(sql)
+        'imagem = Application.StartupPath & rs.Fields(3).Value
         'MsgBox(imagem)
         'imgbox1.Load(imagem)
 

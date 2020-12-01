@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class cadastro_pessoas
     Inherits System.Windows.Forms.Form
 
     'Descartar substituições de formulário para limpar a lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class cadastro_pessoas
     'OBSERVAÇÃO: o procedimento a seguir é exigido pelo Windows Form Designer
     'Pode ser modificado usando o Windows Form Designer.  
     'Não o modifique usando o editor de códigos.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.txt_cpf = New System.Windows.Forms.MaskedTextBox()
@@ -51,7 +51,8 @@ Partial Class cadastro_pessoas
         Me.btn_cancelar = New System.Windows.Forms.Button()
         Me.btn_salvar = New System.Windows.Forms.Button()
         Me.lbl_foto = New System.Windows.Forms.LinkLabel()
-        Me.Label2 = New System.Windows.Forms.Label()
+        Me.selecionar_foto = New System.Windows.Forms.OpenFileDialog()
+        Me.cmb_tipo = New System.Windows.Forms.ComboBox()
         CType(Me.img_foto, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -87,7 +88,7 @@ Partial Class cadastro_pessoas
         '
         Me.cmb_data_nascimento.CustomFormat = "00/00/0000"
         Me.cmb_data_nascimento.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.cmb_data_nascimento.Location = New System.Drawing.Point(155, 78)
+        Me.cmb_data_nascimento.Location = New System.Drawing.Point(112, 78)
         Me.cmb_data_nascimento.MaxDate = New Date(2020, 11, 29, 20, 50, 10, 0)
         Me.cmb_data_nascimento.Name = "cmb_data_nascimento"
         Me.cmb_data_nascimento.Size = New System.Drawing.Size(89, 20)
@@ -115,7 +116,7 @@ Partial Class cadastro_pessoas
         '
         Me.lbl_data_nascimento.AutoSize = True
         Me.lbl_data_nascimento.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_data_nascimento.Location = New System.Drawing.Point(152, 62)
+        Me.lbl_data_nascimento.Location = New System.Drawing.Point(109, 62)
         Me.lbl_data_nascimento.Name = "lbl_data_nascimento"
         Me.lbl_data_nascimento.Size = New System.Drawing.Size(146, 13)
         Me.lbl_data_nascimento.TabIndex = 6
@@ -290,6 +291,7 @@ Partial Class cadastro_pessoas
         Me.img_foto.Location = New System.Drawing.Point(330, 62)
         Me.img_foto.Name = "img_foto"
         Me.img_foto.Size = New System.Drawing.Size(125, 134)
+        Me.img_foto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.img_foto.TabIndex = 25
         Me.img_foto.TabStop = False
         '
@@ -321,14 +323,13 @@ Partial Class cadastro_pessoas
         Me.lbl_foto.TabStop = True
         Me.lbl_foto.Text = "Selecionar Foto..."
         '
-        'Label2
+        'cmb_tipo
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(321, 232)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(151, 13)
-        Me.Label2.TabIndex = 29
-        Me.Label2.Text = "To brava com o VS e o Github"
+        Me.cmb_tipo.FormattingEnabled = True
+        Me.cmb_tipo.Location = New System.Drawing.Point(333, 230)
+        Me.cmb_tipo.Name = "cmb_tipo"
+        Me.cmb_tipo.Size = New System.Drawing.Size(121, 21)
+        Me.cmb_tipo.TabIndex = 29
         '
         'cadastro_pessoas
         '
@@ -336,7 +337,7 @@ Partial Class cadastro_pessoas
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(484, 367)
-        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.cmb_tipo)
         Me.Controls.Add(Me.lbl_foto)
         Me.Controls.Add(Me.btn_salvar)
         Me.Controls.Add(Me.btn_cancelar)
@@ -403,5 +404,6 @@ Partial Class cadastro_pessoas
     Friend WithEvents btn_cancelar As Button
     Friend WithEvents btn_salvar As Button
     Friend WithEvents lbl_foto As LinkLabel
-    Friend WithEvents Label2 As Label
+    Friend WithEvents selecionar_foto As OpenFileDialog
+    Friend WithEvents cmb_tipo As ComboBox
 End Class

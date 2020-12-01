@@ -3,7 +3,9 @@
     Public rs As New ADODB.Recordset
     Public sql As String
     Public database = Application.StartupPath & "\database\pinguino-db.accdb"
-    Public imagem As String
+    Public folder As String
+    Public cpf_unmask, telefone_unmask, photoname As String
+    Public id_pessoa As Integer
     Sub conectar_banco()
         Try
             db = CreateObject("ADODB.Connection")
