@@ -29,7 +29,7 @@
                            "'" & cadastro_pessoas.txt_email.Text & "', " &
                            "'" & folder & "');"
             rs = db.Execute(sql)
-            sql = "SELECT * FROM pessoas WHERE nome = '" & cadastro_pessoas.txt_nome.Text & "';"
+            sql = "SELECT @@IDENTITY;"
             rs = db.Execute(sql)
             id_pessoa = rs.Fields(0).Value
             sql = "INSERT INTO endereco (id_cep, id_pessoa, numero, complemento) " &

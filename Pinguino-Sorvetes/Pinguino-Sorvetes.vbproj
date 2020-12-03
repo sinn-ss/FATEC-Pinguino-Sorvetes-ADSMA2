@@ -6,11 +6,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{BF983285-43C5-4019-B2EA-5F5F34AFB362}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>Pinguino_Sorvetes.My.MyApplication</StartupObject>
+    <StartupObject>Pinguino_Sorvetes.pedidos_novo</StartupObject>
     <RootNamespace>Pinguino_Sorvetes</RootNamespace>
     <AssemblyName>Pinguino-Sorvetes</AssemblyName>
     <FileAlignment>512</FileAlignment>
-    <MyType>WindowsForms</MyType>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -85,12 +85,6 @@
     <Compile Include="cadastro_funcionarios.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="novo_pedido.Designer.vb">
-      <DependentUpon>novo_pedido.vb</DependentUpon>
-    </Compile>
-    <Compile Include="novo_pedido.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="frm_inicio.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +110,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="pedidos_novo.Designer.vb">
+      <DependentUpon>pedidos_novo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pedidos_novo.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Splash_Pinguino.Designer.vb">
       <DependentUpon>Splash_Pinguino.vb</DependentUpon>
     </Compile>
@@ -139,8 +139,8 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="novo_pedido.resx">
-      <DependentUpon>novo_pedido.vb</DependentUpon>
+    <EmbeddedResource Include="pedidos_novo.resx">
+      <DependentUpon>pedidos_novo.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Splash_Pinguino.resx">
       <DependentUpon>Splash_Pinguino.vb</DependentUpon>
