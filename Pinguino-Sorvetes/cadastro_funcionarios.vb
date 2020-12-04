@@ -6,6 +6,8 @@
         cmb_cargo_funcionario.Items.Add("COZINHA")
         cmb_cargo_funcionario.Items.Add("SUPERVISOR")
         cmb_cargo_funcionario.SelectedIndex = 0
+        img_correct.Visible = False
+        img_wrong.Visible = True
     End Sub
 
     Private Sub btn_salvar_funcionario_Click(sender As Object, e As EventArgs) Handles btn_salvar_funcionario.Click
@@ -97,9 +99,11 @@
 
     Private Sub txt_confirma_senha_TextChanged(sender As Object, e As EventArgs) Handles txt_confirma_senha.TextChanged
         If txt_confirma_senha.Text = txt_senha_funcionario.Text Then
-            lbl_confirmar_senha.ForeColor = Color.Green
+            img_wrong.Visible = False
+            img_correct.Visible = True
         Else
-            lbl_confirmar_senha.ForeColor = Color.Red
+            img_wrong.Visible = True
+            img_correct.Visible = False
         End If
     End Sub
 End Class

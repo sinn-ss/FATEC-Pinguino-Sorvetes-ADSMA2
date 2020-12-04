@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{BF983285-43C5-4019-B2EA-5F5F34AFB362}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>Pinguino_Sorvetes.pedidos_novo</StartupObject>
+    <StartupObject>Pinguino_Sorvetes.login</StartupObject>
     <RootNamespace>Pinguino_Sorvetes</RootNamespace>
     <AssemblyName>Pinguino-Sorvetes</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -47,6 +47,9 @@
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Pinguino-Logo-32.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -85,11 +88,17 @@
     <Compile Include="cadastro_funcionarios.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_inicio.vb">
+    <Compile Include="login.Designer.vb">
+      <DependentUpon>login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="login.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_inicio.Designer.vb">
-      <DependentUpon>frm_inicio.vb</DependentUpon>
+    <Compile Include="inicio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inicio.Designer.vb">
+      <DependentUpon>inicio.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="mod_cadastro_pessoas.vb" />
@@ -130,8 +139,11 @@
     <EmbeddedResource Include="cadastro_pessoas.resx">
       <DependentUpon>cadastro_pessoas.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_inicio.resx">
-      <DependentUpon>frm_inicio.vb</DependentUpon>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inicio.resx">
+      <DependentUpon>inicio.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -213,6 +225,9 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Pinguino-Logo-32.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

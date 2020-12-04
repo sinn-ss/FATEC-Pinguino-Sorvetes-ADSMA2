@@ -340,6 +340,7 @@ Partial Class pedidos_novo
         Me.Controls.Add(Me.lbl_nome)
         Me.Controls.Add(Me.Label1)
         Me.Name = "pedidos_novo"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "PINGUINO SORVETES - Novo Pedido"
         CType(Me.img_item, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.dtg_itens, System.ComponentModel.ISupportInitialize).EndInit()

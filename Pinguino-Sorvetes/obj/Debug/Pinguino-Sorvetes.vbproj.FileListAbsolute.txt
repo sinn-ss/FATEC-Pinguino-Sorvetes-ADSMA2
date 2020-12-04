@@ -11,8 +11,9 @@ D:\FATEC_2020\2o-Semestre\Sistemas-Informacao\Exercicios-Propostos\N2-SI\Projeto
 D:\FATEC_2020\2o-Semestre\Sistemas-Informacao\Exercicios-Propostos\N2-SI\Projeto\Pinguino-Sorvetes\Pinguino-Sorvetes\obj\Debug\Pinguino-Sorvetes.pdb
 D:\FATEC_2020\2o-Semestre\Sistemas-Informacao\Exercicios-Propostos\N2-SI\Projeto\Pinguino-Sorvetes\Pinguino-Sorvetes\obj\Debug\Interop.MDACVer.dll
 D:\FATEC_2020\2o-Semestre\Sistemas-Informacao\Exercicios-Propostos\N2-SI\Projeto\Pinguino-Sorvetes\Pinguino-Sorvetes\obj\Debug\Pinguino-Sorvetes.vbproj.ResolveComReference.cache
-D:\FATEC_2020\2o-Semestre\Sistemas-Informacao\Exercicios-Propostos\N2-SI\Projeto\Pinguino-Sorvetes\Pinguino-Sorvetes\obj\Debug\Pinguino_Sorvetes.frm_inicio.resources
 D:\FATEC_2020\2o-Semestre\Sistemas-Informacao\Exercicios-Propostos\N2-SI\Projeto\Pinguino-Sorvetes\Pinguino-Sorvetes\obj\Debug\Pinguino_Sorvetes.Splash_Pinguino.resources
 D:\FATEC_2020\2o-Semestre\Sistemas-Informacao\Exercicios-Propostos\N2-SI\Projeto\Pinguino-Sorvetes\Pinguino-Sorvetes\obj\Debug\Pinguino_Sorvetes.cadastro_pessoas.resources
 D:\FATEC_2020\2o-Semestre\Sistemas-Informacao\Exercicios-Propostos\N2-SI\Projeto\Pinguino-Sorvetes\Pinguino-Sorvetes\obj\Debug\Pinguino_Sorvetes.cadastro_funcionarios.resources
 D:\FATEC_2020\2o-Semestre\Sistemas-Informacao\Exercicios-Propostos\N2-SI\Projeto\Pinguino-Sorvetes\Pinguino-Sorvetes\obj\Debug\Pinguino_Sorvetes.pedidos_novo.resources
+D:\FATEC_2020\2o-Semestre\Sistemas-Informacao\Exercicios-Propostos\N2-SI\Projeto\Pinguino-Sorvetes\Pinguino-Sorvetes\obj\Debug\Pinguino_Sorvetes.login.resources
+D:\FATEC_2020\2o-Semestre\Sistemas-Informacao\Exercicios-Propostos\N2-SI\Projeto\Pinguino-Sorvetes\Pinguino-Sorvetes\obj\Debug\Pinguino_Sorvetes.inicio.resources

@@ -1,6 +1,5 @@
 ﻿Public Class cadastro_pessoas
     Private Sub cadastro_pessoas_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        conectar_banco()
         photoname = "default-photo.jpg"
         img_foto.Load(Application.StartupPath & "\images\photos\" & photoname)
     End Sub

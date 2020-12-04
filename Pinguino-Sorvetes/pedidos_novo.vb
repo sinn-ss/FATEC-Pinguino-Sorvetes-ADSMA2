@@ -1,6 +1,5 @@
 ﻿Public Class pedidos_novo
     Private Sub novo_pedido_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        conectar_banco()
         carregar_clientes_pedidos()
         carregar_itens_pedidos()
         For cont = 1 To 20
