@@ -17,3 +17,4 @@ D:\FATEC_2020\2o-Semestre\Sistemas-Informacao\Exercicios-Propostos\N2-SI\Projeto
 D:\FATEC_2020\2o-Semestre\Sistemas-Informacao\Exercicios-Propostos\N2-SI\Projeto\Pinguino-Sorvetes\Pinguino-Sorvetes\obj\Debug\Pinguino_Sorvetes.pedidos_novo.resources
 D:\FATEC_2020\2o-Semestre\Sistemas-Informacao\Exercicios-Propostos\N2-SI\Projeto\Pinguino-Sorvetes\Pinguino-Sorvetes\obj\Debug\Pinguino_Sorvetes.login.resources
 D:\FATEC_2020\2o-Semestre\Sistemas-Informacao\Exercicios-Propostos\N2-SI\Projeto\Pinguino-Sorvetes\Pinguino-Sorvetes\obj\Debug\Pinguino_Sorvetes.inicio.resources
+D:\FATEC_2020\2o-Semestre\Sistemas-Informacao\Exercicios-Propostos\N2-SI\Projeto\Pinguino-Sorvetes\Pinguino-Sorvetes\obj\Debug\Pinguino_Sorvetes.pedidos_consultar.resources
